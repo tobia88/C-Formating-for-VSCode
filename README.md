@@ -1,5 +1,5 @@
 # C-Formating-for-VSCode
-An json for auto formating omnisharp.json in new bracket style
+A json for a different omnisharp C# bracket style formating
 
 Which represent the code style below:
 
