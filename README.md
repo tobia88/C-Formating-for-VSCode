@@ -3,17 +3,20 @@ An json for auto formating omnisharp.json in new bracket style
 
 Which represent the code style below:
 
-function hello( int p1, int p2) {
+```c#
+function hello( int p1, int p2 ) {
   if( true ) {
     // this
   } else {
     // that
   }
 }
+```
 
 Create new file name omnisharp.json locate at %USERPROFILE%/.omnisharp,
 then paste the following codes to the file.
 
+```json
 {
     "FormattingOptions": {
 		"NewLine": "\n",
@@ -68,4 +71,5 @@ then paste the following codes to the file.
 		"NewLineForClausesInQuery": false
     }
 }
+```
  
